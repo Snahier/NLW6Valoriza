@@ -1,0 +1,11 @@
+{
+  "name": "NLW6Valoriza",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Snahier/NLW6Valoriza.git",
+  "author": "Snahier <hansalmeida@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
+}
