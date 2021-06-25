@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express"
 
-const expressErrorMiddleware = (
+const errorsMiddleware = (
   error: Error,
   request: Request,
   response: Response,
@@ -15,4 +15,4 @@ const expressErrorMiddleware = (
   })
 }
 
-export { expressErrorMiddleware }
+export { errorsMiddleware }
