@@ -15,7 +15,7 @@ class CreateTagService {
 
     const tag = tagsRepository.create({ name })
 
-    tagsRepository.save(tag)
+    await tagsRepository.save(tag)
 
     return tag
   }
