@@ -27,4 +27,9 @@ routes.post(
   createComplimentController.handle
 )
 
+routes.get(
+  "/users/compliments/sent",
+  ensureAuthenticated,
+  listUserSentComplimentsController.handle
+)
 export { routes }
